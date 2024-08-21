@@ -11,15 +11,13 @@ public class DatCodeMania {
     private ArrayList<String> human_langs;
 
     public DatCodeMania() {
-        this.name = "Full name redacted as I'm worried about a few nasty" +
-                    " things such as doxing/swatting.";
         this.age = 15;
         this.occupation = "High school student, pursuing Computer Science.";
 
         this.programming_langs = new ArrayList<String>();
         programming_langs.add("Python - Intermediate");
         programming_langs.add("Java - Beginner-Intermediate");
-        programming_langs.add("C++ - Beginner");
+        programming_langs.add("Go - Beginner");
 
         this.human_langs = new ArrayList<String>();
         human_langs.add("English - fluent");
